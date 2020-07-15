@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/atualizar"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:orderInCategory="100"
+        android:title="Editar"
+        app:showAsAction="withText"
+        android:onClick="atualizar"/>
+
+    <item
+        android:id="@+id/excluir"
+        android:icon="@android:drawable/ic_delete"
+        android:orderInCategory="200"
+        android:title="Excluir"
+        app:showAsAction="withText"
+        android:onClick="excluir"/>
+
+</menu>

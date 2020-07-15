@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.parking.MainActivity">
+    <item
+        android:id="@+id/informacao"
+        android:icon="@drawable/ic_info_black_24dp"
+        android:orderInCategory="100"
+        android:title="Sobre"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/consulta"
+        android:icon="@drawable/ic_directions_car_black_24dp"
+        android:orderInCategory="101"
+        android:title="Consulta"
+        app:showAsAction="always|withText" />
+</menu>
